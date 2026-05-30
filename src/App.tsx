@@ -222,7 +222,15 @@ function App() {
         </section>
       </main>
 
-      <footer className="footer"><div className="container footer-grid"><div>SubMapify · Underground positioning and emergency response for deep mines</div><div>Built for pilot conversations with mine operators and safety teams</div></div></footer>
+      <footer className="footer">
+        <div className="container footer-grid">
+          <div>SubMapify · Underground positioning and emergency response for deep mines</div>
+          <div className="founder-line">
+            <span>Founder - Anmol Srivastava</span>
+            <span>Co-Founder - Pranjal Shrivastav</span>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
