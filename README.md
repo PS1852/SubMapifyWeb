@@ -7,4 +7,8 @@ Vite + React landing page for SubMapify.
 - Framework preset: Vite
 - Build command: `npm run build`
 - Output directory: `dist`
-- Optional env var: `VITE_API_BASE_URL` for the existing backend URL. Leave blank when the backend is served from the same domain.
+- Email env vars for the built-in Vercel API:
+  - `EMAIL_USER`
+  - `EMAIL_PASS`
+  - `RECEIVER_EMAIL`
+- Optional env var: `VITE_API_BASE_URL` for an external backend URL. Leave blank when using this repo's `/api/v1/leads/*` Vercel functions.
